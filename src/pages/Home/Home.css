@@ -1,0 +1,32 @@
+.home {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: 0 50% !important;
+}
+
+.home .container {
+    position: relative;
+}
+
+.home h1 {
+    font-weight: 600;
+}
+
+.home p {
+    letter-spacing: 1px;
+    opacity: 0.7;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+}
